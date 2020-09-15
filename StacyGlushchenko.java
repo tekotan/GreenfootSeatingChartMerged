@@ -41,9 +41,9 @@ public class StacyGlushchenko extends Student implements SpecialInterestOrHobby
     public StacyGlushchenko() {
         firstName="Stacy";
         lastName="Glushchenko";
-        myRow=1;
-        mySeat=1;
-       // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
+        myRow=2;
+        mySeat=5;
+       //imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".wav";
@@ -94,6 +94,7 @@ public class StacyGlushchenko extends Student implements SpecialInterestOrHobby
         while (! sitting) {
         String q=Greenfoot.ask("Are you ready to start (yes/no)");
         if (q.contains("yes")){
+            bluej.utility.Utility.openWebBrowser("https://docs.google.com/document/d/1aFhX7XDWdkDBX-Gw3Z4gUno-RRewpSj2vQttrGNCH7Q/edit");
          // put in your lesson here - you can open up a browser for a screencast
          // Create a blackboard image and write to it, etc
          // Use an animated gif and dub over with audio - see "controls/show sound recoder"

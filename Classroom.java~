@@ -151,11 +151,7 @@ public class Classroom extends World
         NiruSuravarjjala nirusuravarjjala = new NiruSuravarjjala("Niru", "Suravarjjala", 1, 5);
         addObject(nirusuravarjjala, 1, 5);
         nirusuravarjjala.sitDown();
-
-        StacyGlushchenko stacyglushchenko = new StacyGlushchenko("Stacy", "Glushchenko", 2, 5);
-        addObject(stacyglushchenko, 6, 5);
-        stacyglushchenko.sitDown();
-
+        
 
     }
 }
