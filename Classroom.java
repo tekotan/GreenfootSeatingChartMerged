@@ -88,7 +88,7 @@ public class Classroom extends World
         addObject(akashdarbha, 3, 4);
         akashdarbha.sitDown();  
 
-       	SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
+        SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
         addObject(SharvinManjrekar, 4, 4);
         SharvinManjrekar.sitDown();
   
@@ -152,7 +152,9 @@ public class Classroom extends World
         addObject(nirusuravarjjala, 1, 5);
         nirusuravarjjala.sitDown();
         
-
+        OmerAhmer omerahmer = new OmerAhmer("Omer", "Ahmer", 2, 5);
+        addObject(omerahmer, 2, 5);
+        omerahmer.sitDown();
     }
 }
 
