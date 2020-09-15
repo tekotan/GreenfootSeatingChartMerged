@@ -88,7 +88,7 @@ public class Classroom extends World
         addObject(akashdarbha, 3, 4);
         akashdarbha.sitDown();  
 
-       	SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
+        SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
         addObject(SharvinManjrekar, 4, 4);
         SharvinManjrekar.sitDown();
   
@@ -151,8 +151,19 @@ public class Classroom extends World
         NiruSuravarjjala nirusuravarjjala = new NiruSuravarjjala("Niru", "Suravarjjala", 1, 5);
         addObject(nirusuravarjjala, 1, 5);
         nirusuravarjjala.sitDown();
-        
+<<<<<<< HEAD
 
+        StacyGlushchenko stacyglushchenko = new StacyGlushchenko("Stacy", "Glushchenko", 2, 5);
+        addObject(stacyglushchenko, 6, 5);
+        stacyglushchenko.sitDown();
+
+
+=======
+        
+        OmerAhmer omerahmer = new OmerAhmer("Omer", "Ahmer", 2, 5);
+        addObject(omerahmer, 2, 5);
+        omerahmer.sitDown();
+>>>>>>> 27d9275ded0b89880d37408fb5d5ed49cfaf6ca7
     }
 }
 
